@@ -1,0 +1,426 @@
+.container {
+    margin: 0 auto;
+    width: calc(100dvw - 200px);
+   
+}
+
+.jobs-section {
+    padding: 1rem;
+    
+}
+
+.jobs-section .search-bar {
+    display: flex;
+    padding: 1rem 0;
+    gap: 1rem;
+   
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 0.65rem;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button {
+    padding: 0.5rem 1rem; 
+    font-size: 0.9rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    margin:5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.job-posting {
+    margin-top: 15px;
+    width: 20%;
+    border: 2px solid #ddd;
+    border-radius: 0.8rem;
+    padding: 1rem;
+}
+
+.job-posting > * {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.job-posting .avatar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.job-posting .avatar .avatar-short, .avatar-long {
+  display: flex;
+}
+.job-posting .avatar .avatar-long {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-posting .avatar .avatar-long {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.job-posting .avatar .avatar-short {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-posting .avatar .avatar-short > div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.job-posting h2 {
+    margin: 0;
+}
+.job-posting .posting-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.application-container {
+  margin: 0 auto ;
+ 
+  width: calc(100dvw - 200px);
+  
+  display: flex;
+ 
+}
+.application-status {
+  margin-top: 15px;
+  margin-right: 5px;
+  width: 20%;
+  border: 2px solid #ddd;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.admin-posting {
+  margin-top: 15px;
+  margin:10px;
+  width: 70%; 
+  border: 2px solid #3498db; 
+  border-radius: 0.8rem;
+  padding: 1.5rem; 
+  background-color: #ecf0f1; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease-in-out;
+}
+
+.admin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.admin-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+
+}
+
+
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .signin-form form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  
+  .signin-form h3 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .signin-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signin-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .signin-form button:hover {
+    background-color:  #3498db;
+  }
+ 
+  .signin-form label {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signin-form h4 {
+    margin: 0;
+    display: inline;
+    margin-right: 5px;
+  }
+  
+  .signin-form label button {
+    padding: 8px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .signin-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signin-form label button:hover {
+    background-color: #2980b9;
+  }
+  
+  .skills-section {
+    width: 50%; 
+    float: left; 
+  }
+
+
+
+
+  
+.profile-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+
+
+.Profile-h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+
+.profile-form form {
+  display: flex;
+  flex-direction: column;
+  margin-top:30px
+}
+
+.profile-input, button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+
+.profiile button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+
+.profile button:hover {
+  background-color: #667bb4;
+}
+
+
+
+.payment-form {
+  max-width: 400px; 
+  width: 80%; 
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #558ec7;
+}
+
+
+.card-element {
+  margin-bottom: 20px;
+}
+
+
+.error-message {
+  color: #9e2146;
+  margin-bottom: 10px;
+}
+
+
+.payment-total {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.pay-btn {
+  background-color:  #6b69d2;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pay-btn:hover {
+  background-color:  #6b69d2;
+}
+
+
+.pay-btn:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+
+
+.my-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.my-form input[type="file"] {
+  margin-top: 0;
+}
+
+.my-form .skills-section {
+  margin-bottom: 20px;
+}
+
+.my-form button {
+  background-color: #3498db;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.my-form button:hover {
+  background-color: #3498db;
+}
+
+
+/* Add a unique class name for your form, e.g., 'add-jobs-form' */
+.add-jobs-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-jobs-form input,
+.add-jobs-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.add-jobs-form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-jobs-form button:hover {
+  background-color: #3498db;
+}
